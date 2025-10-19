@@ -8,9 +8,6 @@
   <meta name="description" content="illustration from a tired mind. Sheffield, South Yorkshire, UK">
   <meta name="keywords" content="illustration, sheffield">
 
-   <!-- Vendor CSS Files  / gives heading control and icons for menu -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -29,16 +26,34 @@
         <h1 class="sitename">Bad Sleep</h1>
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+       <script type="text/javascript">
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "0px";
+            }
 
-    </div>
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            }
+        </script>
+
+    </head>
+    
+    <body>
+          <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="index.html" class="active">Home</a>
+              <a href="about.html">All About</a>
+              <a href="contact.html">Say Hi</a>
+          </div>
+
+          <div id="main">
+              <button class="openbtn" onclick="openNav()">&#9776;</button>  
+          
+          </div>
+    </body>
+    
   </header>
 
   <main class="main">
@@ -71,8 +86,7 @@
 
     <div class="container">
       <div class="copyright text-left ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">2025 Bad Sleep</strong> <span>All Rights Reserved</span></p>
-      </div>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">2025 Bad Sleep</strong> <span>All Rights Reserved</span><br>
         Base Code by <a href="https://bootstrapmade.com/"><strong>BootstrapMade</strong></a> Distributed by <a href="https://themewagon.com" target="_blank"><strong>ThemeWagon</strong></a>
       </div>
     </div>
@@ -80,11 +94,7 @@
   </footer>
 
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
