@@ -1,16 +1,9 @@
 /**
-* Template Name: MyPortfolio
-* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-* Updated: Aug 08 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Matt's Folio
 */
 
 (function() {
   "use strict";
-
-
-  
 
   /**
    * Apply .scrolled class to the body as the page is scrolled down

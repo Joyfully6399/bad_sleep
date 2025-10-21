@@ -31,10 +31,11 @@ html {
  */
 
 .wrapper {
-  margin-left: auto;
+  margin-top: 10px;
+  margin-left: 0;
   margin-right: auto;
   padding-right: 1.5em;
-  padding-left: 1.5em;
+  padding-left: 1.2em;
   max-width: 1080px;
 }
 
