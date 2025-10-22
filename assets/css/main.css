@@ -249,7 +249,8 @@ section,
   padding: 0px 0;
   scroll-margin-top: 30px;
   overflow: clip;
-  margin: 20px; 0px; 0px; 0px;
+  margin: 40px; 0px; 0px; 0px;
+  text-align: center;
 }
 
 @media (max-width: 1199px) {
@@ -282,27 +283,34 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 18px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
-  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about .content ul li {
   margin-bottom: 10px;
   display: flex;
   align-items: normal;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about .content ul strong {
-  margin-right: 5px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about .content ul i {
   font-size: 16px;
-  margin-right: 5px;
+  margin-right: auto;
+  margin-left: auto;
   color: var(--accent-color);
   line-height: 0;
 }
