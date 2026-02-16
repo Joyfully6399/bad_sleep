@@ -82,22 +82,24 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
-.header {
+.header .logo {
+  display: flex;
+  align-items: center;
   position: sticky;
   top: 0;
   color: var(--default-color);
   background-color: #ffffff;
   padding: 15px 0;
-  transition: all 0.5s;
-  z-index: 997;
 }
+
 
 .header .logo {
   line-height: 1;
+  margin-right: 20px;
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 50px;
   margin-right: 8px;
 }
 
