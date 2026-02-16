@@ -82,9 +82,7 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
-.header .logo {
-  display: flex;
-  align-items: center;
+.header {
   position: sticky;
   top: 0;
   color: var(--default-color);
@@ -94,6 +92,7 @@ h6 {
 
 
 .header .logo {
+  display: flex;
   line-height: 1;
   margin-right: 20px;
 }
