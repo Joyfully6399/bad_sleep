@@ -9,9 +9,9 @@
 
 /* Masonry item */
 .masonry .brick {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: inline-block; /* Fix the misalignment of items */
-  vertical-align: top; /* Keep the item on the very top */
+  vertical-align: baseline; /* Keep the item on the very top */
 }
 
 /* Masonry image effects */
