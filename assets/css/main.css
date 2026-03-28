@@ -94,7 +94,8 @@ h6 {
 }
 
 
-.header .logo {
+.logo {
+  display: flex;
   line-height: 1;
 
 }
